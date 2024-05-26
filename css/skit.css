@@ -1,0 +1,58 @@
+/* .s_info{
+    text-align: center;
+    font-weight: 300;
+    fo
+} */
+
+@media screen and (max-width: 700px) {
+    .yourClass {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 700px) {
+    .showday {
+        display: none !important;
+    }
+}
+.reg table{
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .reg th , td {
+    text-align: left;
+    padding: 8px;
+  }
+
+ .reg tr:nth-child(even){background-color: #f2f2f2}
+
+   .committee{
+ text-align: center;
+ margin-left:1%;
+ font-weight: 400;
+ }
+
+
+
+  .reg th{
+    background-color: #aa0d0d;
+    color: white;
+  }
+  .text_sk{
+     text-align: justify;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #9195a2;
+  }
+  .shadow_sk{
+      background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+ #particles-js{
+     height:100vh;
+width:100%;
+ background: url("../img/back.jpg");
+    // background:URL(");
+ }
